@@ -22,12 +22,12 @@
       <button @click.right="reduce(5)">Subtract 5</button>
       <p v-once>Starting Counter: {{ counter }}</p>
       <p>Result: {{ counter }}</p>
-      <input type="text" :value="..." v-model="name"/>
-      <input type="text" v-model="lastName"/>
+      <input type="text" :value="..." v-model="name" />
+      <input type="text" v-model="lastName" />
       <button @click="resetInput">Reset input</button>
       <p>Your Name: {{ fullname }}</p>
-      <form @submit.prevent ="submitForm">
-        <input type="text"/>
+      <form @submit.prevent="submitForm">
+        <input type="text" />
         <button>Sign up</button>
       </form>
     </section>
