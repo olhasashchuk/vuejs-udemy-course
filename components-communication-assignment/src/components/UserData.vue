@@ -17,7 +17,7 @@
 <script>
 export default {
   props: {
-    editingUser: Object, // Принимаем данные пользователя для редактирования
+    editingUser: Object,
   },
   data() {
     return {
